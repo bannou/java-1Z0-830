@@ -127,6 +127,8 @@ Primitive servers as basing building blocks. Wrappers classes allows us to treat
 | char           | Char          |                     |
 | boolean        | Boolean       |                     |
 
+> Wrapper Classes are Immutable !
+
 ### parseXxx()
 
 All wrapper classes (except Char) offers parseXxx() static methods taking in param a String and return the primitive
@@ -166,3 +168,15 @@ Some methods are specific to Char wrapper class, useful for text processing and 
 - static char toLowerCase(char ch);
 - static char toUpperCase(char ch);
 - static char toTitleCase(char ch);
+
+
+> Wrapper classes DO NOT TURN primitives into objects.
+> 
+> They allow primitives to be used in object-based contexts.
+
+## Autoboxing and Unboxing
+
+Autoboxing is an automatic conversion of a primitive type to its corresponding wrapper class
+
+Unboxing is the reverse process.
+

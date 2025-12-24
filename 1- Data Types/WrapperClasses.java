@@ -97,4 +97,11 @@ void main() {
     System.out.println("Is whitespace? : " + Character.isWhitespace(whitespace));       // true
     System.out.println("To uppercase : " + Character.isLetterOrDigit(whitespace));      // false
 
+    int num = 42;
+    Integer objNum = num;   // Autoboxing
+    int num2 =  objNum;     // Unboxing
+
+    Integer nullNum = null;
+    int value = nullNum;    // throws a NullPointerException
+
 }
