@@ -31,6 +31,7 @@ By default:
 - float literals -> D
 
   // Compilation Error: incompatible types
+- 
   float floatNum = 3.14;
 
 ### Underscores
@@ -179,4 +180,3 @@ Some methods are specific to Char wrapper class, useful for text processing and 
 Autoboxing is an automatic conversion of a primitive type to its corresponding wrapper class
 
 Unboxing is the reverse process.
-
