@@ -44,6 +44,13 @@ etc ...
 > - only """ needs to be escaped inside the text block
 > - to include a \, use \\.
 
+
+    \ at the end of the line cancels the new line character
+
+    """Java \ 
+    Rocks !""".equals("Java Rocks !") => true
+
+
 ## The String Builder class
 
 String Builder offers the possibility to change the content of String without having to recreate a new one.
@@ -77,4 +84,3 @@ Multiple ways to instantiate a StringBuilder:
 ### setCharAt()
 
 ### reverse()
-
