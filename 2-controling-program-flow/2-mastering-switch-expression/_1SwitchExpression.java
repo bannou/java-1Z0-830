@@ -5,7 +5,7 @@ public class _1SwitchExpression {
         // Monday (1) to Sunday (7)
         int day = 8;
 
-        // SE not using Pattern Matching
+        // SE not using Pattern MatchingK
         var result = switch (day) {
             default -> "Weekday";
             case 6 -> "Saturday";
